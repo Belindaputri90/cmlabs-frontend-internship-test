@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500&display=swap');
+
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    border-bottom: 1px solid #eee6e6;
+}
+
+/* konten */
+.konten{
+    margin-top: 10%;
+}
+
+.konten .headline-konten h2{
+    font-family: 'David Libre', serif;
+    font-size: 40px;
+    margin: 100px 20px 0 0;
+    text-align: right;
+}
+
+.konten .headline-konten p {
+    font-family: 'David Libre', serif;
+    margin: 0 20px 0 0;
+    text-align: right;
+}
+
+.konten .headline-konten .search-bar {
+    margin: 0 20px 0 90px;
+}
+
+/* konten */
+
+/* bidang */
+.menu .card-menu {
+    border-radius: 5px;
+    font-family: 'David Libre', serif;
+    box-shadow: 2px 2px 0px 0px rgba(219, 217, 217, 0.71);
+}
+
+.menu .card-menu a{
+    text-decoration: none;
+}
+
+.menu .card-menu a h6 {
+    color: #333;
+    font-size: 20px;
+}
+
+/* bidang */
+
+/* MENU DETAIL */
+/* breadcrumb */
+.konten-breadcrumb{
+    margin-top: 10%;
+    margin-left: 25px;
+}
+
+/* menu-category */
+/* .menu-category .category-detail .card{
+    background-image: linear-gradient(rgba(103, 102, 105, 0.5), rgba(103, 102, 105, 0.5)), url(../img/pasta/fettuciniBolognese.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+} */
+
+.menu-category .category-detail .details {
+    font-weight: 600;
+}
+
+/* MEDIA SCREEN */
+@media screen and (max-width: 800px) and (min-width: 480px) {
+    .konten,
+    .konten-breadcrumb {
+        margin-top: 25%;
+    }
+
+    .konten .headline-konten h2 {
+        margin: 0 auto;
+    }
+    
+    .konten .headline-konten p {
+        margin: 0 auto;
+    }
+
+    .konten .headline-konten .search-bar {
+        margin-left: 80px;
+    }
+
+}
+
+/* MEDIA SCREEN *
